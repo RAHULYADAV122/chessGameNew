@@ -1,0 +1,34 @@
+.support-page {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.page-title {
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.support-card {
+  background: linear-gradient(135deg, #2196f3, #21cbf3);
+  color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.support-card:hover {
+  transform: translateY(-5px);
+}
+
+.support-card h3 {
+  margin-bottom: 10px;
+}
